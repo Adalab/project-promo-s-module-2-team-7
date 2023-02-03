@@ -1,2 +1,22 @@
 .footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 110px;
+    row-gap: 12px;
+    border-top: solid 1px #d8d8d8;
+    &--name-app {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 14px;
+        color: #6b6b6b;
+        line-height: 20px;
+        opacity: 0.5;
+    }
+    &--logo {
+        &--logo-adalab {
+            width: 103px;
+            height: 40px;
+        }
+    }
 }

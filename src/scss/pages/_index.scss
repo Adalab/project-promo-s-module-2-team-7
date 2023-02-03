@@ -1,0 +1,74 @@
+.main {
+    background-color: #f5f5f5;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    &--container {
+        width: 264.8px;
+        text-align: center;
+        margin-top: 35px;
+        &--title {
+            font-size: 19.2px;
+            font-family: 'Merriweather', serif;
+            // color: variable
+            color: #e17334;
+        }
+        &--subtitle {
+            font-size: 12.8px;
+            font-family: 'Open Sans', sans-serif;
+            color: #114e4e;
+            margin-top: 2px;
+            line-height: 16px;
+        }
+    }
+    &--rectangle {
+        //check color border
+        border: solid 1.6px rgba(225, 115, 52, 0.21);
+        width: 268px;
+        height: 73.8px;
+        margin-top: 17.8px;
+        &--lists {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            height: 100%;
+            padding: 0 20px 0 20px;
+            &--icons {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                height: 48.8px;
+                &--icon {
+                    width: 32px;
+                    height: 26px;
+                    color: #e17334;
+                }
+                &--paragraph {
+                    font-family: 'Open Sans', sans-serif;
+                    font-size: 12.8px;
+                    // color: variable
+                    color: #54585a;
+                }
+            }
+        }
+    }
+    &--button {
+        width: 129px;
+        height: 42px;
+        border-radius: 31px;
+        background-color: #438792;
+        color: white;
+        text-transform: uppercase;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        font-family: 'Open Sans';
+        font-size: 16px;
+        margin-top: 38.6px;
+    }
+}
